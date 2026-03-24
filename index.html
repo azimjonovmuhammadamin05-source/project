@@ -1,11 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header
+      style="
+        background-image: url(&quot;./src/image/uae-4-2048x1367 2.png&quot;);
+      "
+      class="relative md:h-[70vh] bg-cover bg-center bg-no-repeat flex flex-col text-white justify-between max-w-[1400px] m-auto"
+    >
+      <div class="absolute inset-0 bg-black/50"></div>
+
+      <section
+        class="relative z-10 flex gap-6 p-4 justify-between items-center w-full max-w-[1200px] m-auto"
+      >
+        <p>INNOM<span class="text-blue-500">.VC</span></p>
+        <ul class="hidden sm:flex md:flex gap-4">
+          <li>Кто мы?</li>
+          <li>Услуги</li>
+          <li>Акселератор</li>
+          <li>Новости</li>
+        </ul>
+        <button class="bg-[#07AF91] py-[5px] px-[15px] rounded-[4px]">
+          Войти
+        </button>
+      </section>
+
+      <section
+        class="relative pb-[150px] md:pl-[130px] flex flex-col md:items-start items-center max-w-[600px]"
+      >
+        <h1 class="md:text-[28px] font-bold">
+          Запустите
+          <p class="bg-[#07AF91]">технологический IT-бизнес</p>
+          на международных рынках
+        </h1>
+        <p class="mt-2 md:text-lg text-sm">
+          Открыт набор заявок на акселератор
+        </p>
+        <button class="mt-4 bg-blue-600 px-4 py-2 rounded">
+          Подать заявку
+        </button>
+      </section>
+    </header>
     
-</body>
+  </body>
 </html>
